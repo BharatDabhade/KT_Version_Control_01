@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_SCRIPTEDSERVICE>
+        <au_version><![CDATA[1]]></au_version>
+        <au_creationDate><![CDATA[2024-02-06 13:54:41.0]]></au_creationDate>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_showHideFlag><![CDATA[false]]></au_showHideFlag>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_variablesXML><![CDATA[<variables>
+</variables>
+]]></au_variablesXML>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_script><![CDATA[import java.io.File;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+
+import com.adeptia.indigo.services.ServiceException;
+import com.nimbusds.jose.jwk.JWK;
+import com.nimbusds.jose.jwk.JWKSet;
+
+import io.jsonwebtoken.SignatureAlgorithm;
+
+CommonJwtUtil obj = new CommonJwtUtil();
+
+String workatoKid = context.get("workatoKid");
+String privateKeyString = context.get("privateKeyString");
+String issuer = context.get("issuer");
+int expiryMinutes = Integer.parseInt(context.get("expiryMinutes")+"");
+String jwtkey ="";
+
+try {
+
+	PrivateKey privateKey = obj.getPrivateKey(privateKeyString);
+
+	jwtkey = obj.createJwt(privateKey, SignatureAlgorithm.RS256, workatoKid, issuer, expiryMinutes);
+
+	context.put("headerjwtkey",jwtkey);
+
+} catch (Exception e) {
+	String errorMessage = e.getMessage();
+	context.put("errorMessage",errorMessage);
+	throw new ServiceException(e);
+
+}]]></au_script>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_userOwner><![CDATA[IndigoUser:11744001963631]]></au_userOwner>
+        <au_persistDataEnabled><![CDATA[false]]></au_persistDataEnabled>
+        <au_modifiedDate><![CDATA[2024-09-27 12:18:00.0]]></au_modifiedDate>
+        <au_id><![CDATA[010204245039170724568154200259]]></au_id>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_entityName><![CDATA[VDC_API_CreateJWT_CP]]></au_entityName>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_interpreterType><![CDATA[0]]></au_interpreterType>
+        <au_modifiedBy><![CDATA[IndigoUser:11744001963631]]></au_modifiedBy>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_description><![CDATA[This VDC-wide plugin is called for creating DataPower and Workato targeted JWTs.  Claims are passed in as context variables read from a value map.]]></au_description>
+    </AU_SCRIPTEDSERVICE>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="-7"/>
+        <column name="au_script" type="-1"/>
+        <column name="au_showHideFlag" type="-7"/>
+        <column name="au_variablesXML" type="-1"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="au_interpreterType" type="4"/>
+    </columnInfo>
+</data>
