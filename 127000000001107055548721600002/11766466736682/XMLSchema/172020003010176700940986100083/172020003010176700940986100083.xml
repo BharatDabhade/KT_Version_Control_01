@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_SCHEMAXML>
+        <providerXsdType><![CDATA[null]]></providerXsdType>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_validateXml><![CDATA[false]]></au_validateXml>
+        <au_json><![CDATA[{
+    "fieldName": "customers",
+    "expanded": true,
+    "leaf": false,
+    "children": [
+        {
+            "fieldName": "customer",
+            "Documentation": "Please provide atleast one of first-name, last-name or email",
+            "expanded": true,
+            "isAttribute": false,
+            "leaf": false,
+            "value": "\n\t\t",
+            "children": [
+                 {
+                    "fieldName": "id",
+                    "Documentation": "The id of the customer to be updated.",
+                    "MinOccurs": 1,
+                    "isLookup" : true,
+                    "fieldCustomName" : "Customer",
+                    "isReference": true,
+                    "referenceTo": "customer",
+                    "urlKey": "customer",
+                    "refNameFld": "email",
+                    "refIdFld": "id",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "dependentFieldXPath": "customerid$/customers/customer/addresses/address/id,/customers/customer/metafields/metafield/id",
+                    "leaf": true,
+                    "BaseType": "integer"
+                },
+                {
+                    "fieldName": "first_name",
+                    "Documentation": "The customer's first name.",
+                    "MinOccurs": 0,
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "last_name",
+                    "Documentation": "The customer's last name.",
+                    "MinOccurs": 0,
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "email",
+                    "Documentation": "The email address of the customer.",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "note",
+                    "Documentation": "A note about the customer.",
+                    "MinOccurs": 0,
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "verified_email",
+                    "Documentation": "States whether or not the email address has been verified.",
+                    "Enumeration": "true, false",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "boolean"
+                },
+                {
+                    "fieldName": "accepts_marketing",
+                    "Documentation": "Indicates whether the customer has consented to be sent marketing material via email.",
+                    "Enumeration": "true, false",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "boolean"
+                },
+                {
+                    "fieldName": "multipass_identifier",
+                    "Documentation": "The customer's identifier used with Multipass login.",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "tags",
+                    "Documentation": "Tags are additional short descriptors formatted as a string of comma-separated values. For example, if an article has three tags: tag1, tag2, tag3.",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "addresses",
+                    "Documentation": "Addresses for the customer.",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": false,
+                    "value": "\n\t\t\t",
+                    "children": [
+                        {
+                            "fieldName": "type",
+                            "Enumeration": "array",
+                            "expanded": true,
+                            "isAttribute": true,
+                            "leaf": true,
+                            "BaseType": "string",
+                            "value": "array"
+                        },
+                        {
+                            "fieldName": "address",
+                            "Documentation": "Address for the customer.",
+                            "expanded": true,
+                            "isAttribute": false,
+                            "leaf": false,
+                            "value": "\n\t\t\t",
+                            "children": [
+                                {
+                                    "fieldName": "id",
+                                    "Documentation": "A unique numeric identifier for the address.",
+                                    "type": "number",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "fieldCustomName" : "Customer Address",
+				                    "isReference": true,
+				                    "referenceTo": "address",
+				                    "urlKey": "customeraddress",
+				                    "refNameFld": "address1",
+				                    "refIdFld": "id",
+				                    "superiorFieldXPath": "/customers/customer/id$customerid",
+                                    "leaf": true,
+                                    "BaseType": "number"
+                                },
+                                {
+                                    "fieldName": "address1",
+                                    "Documentation": "The customer's mailing address.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "address2",
+                                    "Documentation": "An additional field for the customer's mailing address.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "city",
+                                    "Documentation": "The customer's city.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "province",
+                                    "Documentation": "The customer's province or state name.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "province_code",
+                                    "Documentation": "The two-letter pcode for the customer's province or state.",
+                                    "maxLength": 2,
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "country",
+                                    "Documentation": "The customer's country.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "country_code",
+                                    "Documentation": "The two-letter country code corresponding to the customer's country.",
+                                    "maxLength": 2,
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "country_name",
+                                    "Documentation": "The customer's normalized country name.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "zip",
+                                    "Documentation": "The customer's zip or postal code.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "number"
+                                },
+                                {
+                                    "fieldName": "phone",
+                                    "Documentation": "The customer's phone number.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "first_name",
+                                    "Documentation": "The customer's first name.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "last_name",
+                                    "Documentation": "The customer's last name.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "company",
+                                    "Documentation": "The customer's company.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "default",
+                                    "Documentation": "Indicates whether this address is the default address for the customer. Valid values are true and false.",
+                                    "Enumeration": "true, false",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "boolean"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldName": "metafields",
+                    "Documentation": "Attaches additional information to a shop's resources.",
+                    "MinOccurs": 0,
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": false,
+                    "value": "\n\t\t\t",
+                    "children": [
+                        {
+                            "fieldName": "type",
+                            "Enumeration": "array",
+                            "expanded": true,
+                            "isAttribute": true,
+                            "leaf": true,
+                            "BaseType": "string",
+                            "value": "array"
+                        },
+                        {
+                            "fieldName": "metafield",
+                            "Documentation": "Attaches additional information to a shop's resources.",
+                            "MinOccurs": 0,
+                            "expanded": true,
+                            "isAttribute": false,
+                            "leaf": false,
+                            "value": "\n\t\t\t",
+                            "children": [
+                                 {
+                                    "fieldName": "id",
+                                    "Documentation": "A unique numeric identifier for the meta field.",
+                                    "type": "number",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "isLookup" : true,
+                                    "fieldCustomName" : "Customer Address",
+				                    "isReference": true,
+				                    "referenceTo": "metafield",
+				                    "urlKey": "customermetafield",
+				                    "refNameFld": "namespace",
+				                    "refIdFld": "id",
+				                    "superiorFieldXPath": "/customers/customer/id$customerid",
+                                    "leaf": true,
+                                    "BaseType": "number"
+                                },
+                                {
+                                    "fieldName": "key",
+                                    "Documentation": "Identifier for the metafield. <br> <b>Note :</b> Use this field only while adding new metafield.",
+                                    "maxLength": 30,
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "value",
+                                    "Documentation": "Information to be stored as metadata.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "value_type",
+                                    "Documentation": "States whether the information in the value is stored as a string or integer.",
+                                    "Enumeration": "string, integer",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "namespace",
+                                    "Documentation": "Container for a set of metadata. Namespaces help distinguish between metadata you created and metadata created by another individual with a similar namespace. <br> <b>Note :</b> Use this field only while adding new metafield.",
+                                    "maxLength": 20,
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                },
+                                {
+                                    "fieldName": "description",
+                                    "Documentation": "Additional information about the metafield.",
+                                    "expanded": true,
+                                    "isAttribute": false,
+                                    "leaf": true,
+                                    "BaseType": "string"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldName": "send_email_invite",
+                    "Documentation": "send email invites",
+                    "Enumeration": "true, false",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "boolean"
+                },
+                {
+                    "fieldName": "password",
+                    "Documentation": "password for new customer",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "password_confirmation",
+                    "Documentation": "confirmation of password for new customer",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "string"
+                },
+                {
+                    "fieldName": "send_email_welcome",
+                    "Documentation": "send welcome email to new customer",
+                    "Enumeration": "true, false",
+                    "expanded": true,
+                    "isAttribute": false,
+                    "leaf": true,
+                    "BaseType": "boolean"
+                }
+            ]
+        }
+    ]
+}]]></au_json>
+        <au_reusable><![CDATA[true]]></au_reusable>
+        <AU_SYSTEMRELEASE><![CDATA[null]]></AU_SYSTEMRELEASE>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_id><![CDATA[172020003010176700940986100083]]></au_id>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_frevvoXsd><![CDATA[null]]></au_frevvoXsd>
+        <au_dtdFile><![CDATA[null]]></au_dtdFile>
+        <au_convertToXSD><![CDATA[false]]></au_convertToXSD>
+        <xsdType><![CDATA[null]]></xsdType>
+        <au_revision><![CDATA[null]]></au_revision>
+        <xsdName><![CDATA[null]]></xsdName>
+        <AU_DEFFMODE><![CDATA[null]]></AU_DEFFMODE>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+	<customer>
+	    <id/>
+		<first_name/>
+		<last_name/>
+		<email/>
+		<note/>
+		<verified_email/>
+		<accepts_marketing/>
+		<multipass_identifier/>
+		<tags/>
+		<addresses type="array">
+		 <address>
+			<id/>
+			<address1/>
+			<address2/>
+			<city/>
+			<province/>
+			<province_code/>
+			<country/>
+			<country_code/>
+			<country_name/>
+			<zip/>
+			<phone/>
+			<last_name/>
+			<first_name/>
+			<company/>
+			<default/>
+			</address>
+		</addresses>
+		<metafields type="array">
+		<metafield>
+		    <id/>
+			<key/>
+			<value/>
+			<value_type/>
+			<namespace/>
+			<description/>
+		</metafield>
+		</metafields>
+		<send_email_invite/>
+		<password/>
+		<password_confirmation/>
+		<send_email_welcome/>
+	</customer>
+</customers>]]></au_xsd>
+        <au_description><![CDATA[TgtSchema_11766980617779]]></au_description>
+        <au_modifiedDate><![CDATA[2025-12-29 11:56:49.867]]></au_modifiedDate>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_jcaAdapterID><![CDATA[null]]></au_jcaAdapterID>
+        <au_selectedroot><![CDATA[null]]></au_selectedroot>
+        <au_version><![CDATA[1]]></au_version>
+        <au_xmlValidator><![CDATA[null]]></au_xmlValidator>
+        <AU_IDOCOBJTYPE><![CDATA[null]]></AU_IDOCOBJTYPE>
+        <au_creationDate><![CDATA[2025-12-29 11:56:49.867]]></au_creationDate>
+        <AU_SAPCLIENT><![CDATA[null]]></AU_SAPCLIENT>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_fileReferencesID><![CDATA[null]]></au_fileReferencesID>
+        <au_encodingUsed><![CDATA[null]]></au_encodingUsed>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_projectOwner><![CDATA[Project:11766466736682]]></au_projectOwner>
+        <au_xmlSchemaVersion><![CDATA[2.0]]></au_xmlSchemaVersion>
+        <au_wsMessageCallID><![CDATA[null]]></au_wsMessageCallID>
+        <AU_APPRELEASE><![CDATA[null]]></AU_APPRELEASE>
+        <au_dtdFilePath><![CDATA[etc/apps/shopify/layouts/customerUpdateRequest.xml]]></au_dtdFilePath>
+        <AU_IDOCEXT><![CDATA[null]]></AU_IDOCEXT>
+        <AU_IDOCTYPE><![CDATA[null]]></AU_IDOCTYPE>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_entityName><![CDATA[TgtSchema_11766980617779]]></au_entityName>
+        <AU_XMLSCHEMATYPE><![CDATA[null]]></AU_XMLSCHEMATYPE>
+        <au_wsProviderID><![CDATA[null]]></au_wsProviderID>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+    </AU_SCHEMAXML>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="au_reusable" type="-7"/>
+        <column name="au_dtdFilePath" type="12"/>
+        <column name="au_convertToXSD" type="-7"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_xmlSchemaVersion" type="12"/>
+        <column name="au_fileReferencesID" type="12"/>
+        <column name="au_dtdFile" type="-1"/>
+        <column name="au_validateXml" type="-7"/>
+        <column name="au_wsMessageCallID" type="12"/>
+        <column name="au_wsProviderID" type="12"/>
+        <column name="au_jcaAdapterID" type="12"/>
+        <column name="xsdType" type="12"/>
+        <column name="providerXsdType" type="12"/>
+        <column name="xsdName" type="12"/>
+        <column name="au_frevvoXsd" type="12"/>
+        <column name="AU_XMLSCHEMATYPE" type="12"/>
+        <column name="AU_DEFFMODE" type="12"/>
+        <column name="AU_IDOCOBJTYPE" type="12"/>
+        <column name="AU_IDOCEXT" type="12"/>
+        <column name="au_selectedroot" type="12"/>
+        <column name="au_xmlValidator" type="12"/>
+        <column name="AU_IDOCTYPE" type="12"/>
+        <column name="AU_SYSTEMRELEASE" type="12"/>
+        <column name="AU_APPRELEASE" type="12"/>
+        <column name="AU_SAPCLIENT" type="12"/>
+    </columnInfo>
+</data>

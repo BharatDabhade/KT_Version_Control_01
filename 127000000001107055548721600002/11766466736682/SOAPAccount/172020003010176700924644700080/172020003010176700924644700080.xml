@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_SOAPACCOUNT>
+        <au_parametersXml><![CDATA[<fields><field><name>accountId</name><value>tstdrv1127985</value></field><field><name>consumerKey</name><value>ac372257e9200607e792d5d2a5eea81f3b1e78d35ac048ecb2662fb885e53158</value></field><field><name>consumerSecret</name><value>1b06ee5f96f056d85a0772a765e8c97825d01230331645da96222c49581ef5cf</value></field><field><name>tokenId</name><value>88fb2f8b6f0cd27face1065f6ee334d7601af3d0d9c85d2ef0f6f8e0596a8ac8</value></field><field><name>tokenSecret</name><value>caf377938a9d96ead8d9a2acdc9ebbe4827f11ff982173329ad2162cf1298fab</value></field><field><name>adapterType</name><value>netsuitesoap</value></field></fields>]]></au_parametersXml>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_creationDate><![CDATA[2025-12-29 11:54:06.453]]></au_creationDate>
+        <au_permissionMask><![CDATA[750]]></au_permissionMask>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_projectOwner><![CDATA[Project:11766466736682]]></au_projectOwner>
+        <au_id><![CDATA[172020003010176700924644700080]]></au_id>
+        <au_adapterType><![CDATA[netsuitesoap]]></au_adapterType>
+        <au_version><![CDATA[1]]></au_version>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_description><![CDATA[new]]></au_description>
+        <au_modifiedDate><![CDATA[2025-12-29 11:54:06.453]]></au_modifiedDate>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_entityName><![CDATA[new]]></au_entityName>
+    </AU_SOAPACCOUNT>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_adapterType" type="12"/>
+        <column name="au_parametersXml" type="12"/>
+    </columnInfo>
+</data>
