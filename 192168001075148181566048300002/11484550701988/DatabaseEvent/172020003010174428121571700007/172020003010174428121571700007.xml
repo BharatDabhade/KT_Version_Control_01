@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DBEVENT>
+        <au_creationDate><![CDATA[2025-04-10 10:33:35.0]]></au_creationDate>
+        <au_eventStartDateTime><![CDATA[]]></au_eventStartDateTime>
+        <au_updateColumnName><![CDATA[]]></au_updateColumnName>
+        <au_modifiedBy><![CDATA[IndigoUser:11744001963631]]></au_modifiedBy>
+        <sqlQuery><![CDATA[SELECT PARENTID,FIRSTNAME,LASTNAME,EMAIL,PHONENUMBER,ADDRESS,CITY,STATE,ZIPCODE,DATEOFBIRTH FROM "PK_SOLUTION"."SOURCE_PARENTS_REGRESSION"]]></sqlQuery>
+        <operators><![CDATA[null]]></operators>
+        <tempraryTableName><![CDATA[dbeventtriggertable]]></tempraryTableName>
+        <triggerName><![CDATA[]]></triggerName>
+        <au_activateFlag><![CDATA[false]]></au_activateFlag>
+        <au_userOwner><![CDATA[IndigoUser:11744008704137]]></au_userOwner>
+        <au_id><![CDATA[172020003010174428121571700007]]></au_id>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:172020003010174401785279600028]]></dbConnectionInfoId>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_modifiedDate><![CDATA[2025-04-10 10:40:21.0]]></au_modifiedDate>
+        <au_updateWhereCondition><![CDATA[]]></au_updateWhereCondition>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_calendarType><![CDATA[AllDays]]></au_calendarType>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_eventExpiryDateTime><![CDATA[]]></au_eventExpiryDateTime>
+        <au_entityName><![CDATA[mm_db_event]]></au_entityName>
+        <au_misFireInstructions><![CDATA[ignoreMisfire]]></au_misFireInstructions>
+        <au_creationMode><![CDATA[Simple]]></au_creationMode>
+        <au_triggerInSequence><![CDATA[false]]></au_triggerInSequence>
+        <checkCondition><![CDATA[false]]></checkCondition>
+        <au_description><![CDATA[mm_db_event]]></au_description>
+        <au_businessInterval><![CDATA[]]></au_businessInterval>
+        <tableName><![CDATA[null]]></tableName>
+        <dbtrigger><![CDATA[]]></dbtrigger>
+        <au_triggerForAllRecords><![CDATA[true]]></au_triggerForAllRecords>
+        <au_version><![CDATA[1]]></au_version>
+        <au_receiverEmailIds><![CDATA[]]></au_receiverEmailIds>
+        <au_executeUpdateQuery><![CDATA[false]]></au_executeUpdateQuery>
+        <conditionValue><![CDATA[]]></conditionValue>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_processPerPoll><![CDATA[-1]]></au_processPerPoll>
+        <au_pollingFrequency><![CDATA[15$m]]></au_pollingFrequency>
+    </AU_DBEVENT>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_activateFlag" type="-7"/>
+        <column name="au_eventStartDateTime" type="12"/>
+        <column name="au_eventExpiryDateTime" type="12"/>
+        <column name="au_triggerInSequence" type="-7"/>
+        <column name="au_calendarType" type="12"/>
+        <column name="au_businessInterval" type="12"/>
+        <column name="au_creationMode" type="12"/>
+        <column name="au_receiverEmailIds" type="12"/>
+        <column name="au_misFireInstructions" type="12"/>
+        <column name="au_processPerPoll" type="4"/>
+        <column name="dbConnectionInfoId" type="12"/>
+        <column name="sqlQuery" type="-1"/>
+        <column name="checkCondition" type="-7"/>
+        <column name="operators" type="12"/>
+        <column name="conditionValue" type="12"/>
+        <column name="tempraryTableName" type="12"/>
+        <column name="dbtrigger" type="12"/>
+        <column name="triggerName" type="12"/>
+        <column name="tableName" type="12"/>
+        <column name="au_pollingFrequency" type="12"/>
+        <column name="au_triggerForAllRecords" type="-7"/>
+        <column name="au_executeUpdateQuery" type="-7"/>
+        <column name="au_updateColumnName" type="12"/>
+        <column name="au_updateWhereCondition" type="12"/>
+    </columnInfo>
+</data>
