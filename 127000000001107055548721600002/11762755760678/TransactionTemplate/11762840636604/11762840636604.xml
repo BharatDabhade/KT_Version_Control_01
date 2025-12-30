@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <CREATION_DATE><![CDATA[2025-11-11 07:35:57.663]]></CREATION_DATE>
-        <REVISION><![CDATA[5dcc2ad2d2456041bb50d05c1ea177c754d91cea]]></REVISION>
-        <MODIFIED_BY><![CDATA[Admin User]]></MODIFIED_BY>
-        <CREATED_BY><![CDATA[Admin User]]></CREATED_BY>
-        <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
-        <VARIABLE_INFO><![CDATA[{"templateVariable":[{"xtype":"float","grouptitle":"TemplateParameter_Group","variableName":"TemplateParameter_Name","defaultvalue":"1234","allowBlank":false,"displayName":"TemplateParameter_DisplayName","paramDescription":"TemplateParameter_Tooltip","variableValue":"12345"}],"transactionVariable":[{"xtype":"textfield","grouptitle":"TransactionParameter_Group","variableName":"TransactionParameter_Name","allowBlank":false,"displayName":"TransactionParameter_DisplayName","paramDescription":"TransactionParameter_Tooltip","pattern":"a-zA-Z0-9"}]}]]></VARIABLE_INFO>
-        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <NOTIFICATION_MODE><![CDATA[1902]]></NOTIFICATION_MODE>
-        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
-        <CREATED_GROUP><![CDATA[IndigoGroup:127000000001107055548721600002]]></CREATED_GROUP>
-        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
-        <ID><![CDATA[11762840636604]]></ID>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
-        <DISPLAY_NAME><![CDATA[SS_Tooltip_TempTrnx_Parameter]]></DISPLAY_NAME>
-        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
-        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
-        <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
-        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
-        <PARAMETERS_INFO><![CDATA[{"routingType":3501,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","loggingLevel":"ERROR","activitiesLoggingRetention":"L","routing":{"rules":[{"rule":[{"criteria":"filename","condition":"contains","value":"File Name","ignoreCase":true}]}]},"routingCriteria":"file"}]]></PARAMETERS_INFO>
-        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
         <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <DIRECTION><![CDATA[3200]]></DIRECTION>
-        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
         <SYNCHRONIZED><![CDATA[1]]></SYNCHRONIZED>
+        <MODIFIED_GROUP><![CDATA[IndigoGroup:127000000001107055548721600002]]></MODIFIED_GROUP>
+        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
         <MODIFIED_DATE><![CDATA[2025-12-23 05:19:11.133]]></MODIFIED_DATE>
+        <ID><![CDATA[11762840636604]]></ID>
+        <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
+        <CREATED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></CREATED_USER>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <CREATION_DATE><![CDATA[2025-11-11 07:35:57.663]]></CREATION_DATE>
+        <PARAMETERS_INFO><![CDATA[{"routingType":3501,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","loggingLevel":"ERROR","activitiesLoggingRetention":"L","routing":{"rules":[{"rule":[{"criteria":"filename","condition":"contains","value":"File Name","ignoreCase":true}]}]},"routingCriteria":"file"}]]></PARAMETERS_INFO>
+        <CREATED_BY><![CDATA[Admin User]]></CREATED_BY>
+        <TYPE><![CDATA[504]]></TYPE>
+        <DESCRIPTION><![CDATA[SS_Tooltip_TempTrnx_Parameter]]></DESCRIPTION>
+        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
         <CONTACT_USER><![CDATA[user@domain.com]]></CONTACT_USER>
         <DEST_ACTION><![CDATA[createnewfile]]></DEST_ACTION>
-        <CREATED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></CREATED_USER>
-        <PROJECT_OWNER><![CDATA[Project:11762755760678]]></PROJECT_OWNER>
+        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
+        <DISPLAY_NAME><![CDATA[SS_Tooltip_TempTrnx_Parameter]]></DISPLAY_NAME>
+        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
         <CREATED_ROLE><![CDATA[1]]></CREATED_ROLE>
-        <MODIFIED_ROLE><![CDATA[1]]></MODIFIED_ROLE>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <NOTIFICATION_MODE><![CDATA[1902]]></NOTIFICATION_MODE>
+        <DIRECTION><![CDATA[3200]]></DIRECTION>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
+        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
         <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
-        <DESCRIPTION><![CDATA[SS_Tooltip_TempTrnx_Parameter]]></DESCRIPTION>
-        <DEST_EXTERNAL_ID><![CDATA[]]></DEST_EXTERNAL_ID>
         <STATUS><![CDATA[601]]></STATUS>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <TYPE><![CDATA[504]]></TYPE>
-        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
+        <MODIFIED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></MODIFIED_USER>
         <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <REVISION><![CDATA[fda7c70cde882056d6c4f873f8c11d703c4bb710]]></REVISION>
+        <MODIFIED_ROLE><![CDATA[1]]></MODIFIED_ROLE>
+        <DEST_EXTERNAL_ID><![CDATA[]]></DEST_EXTERNAL_ID>
+        <PROJECT_OWNER><![CDATA[Project:11762755760678]]></PROJECT_OWNER>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
+        <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
+        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
+        <VARIABLE_INFO><![CDATA[{"templateVariable":[{"xtype":"float","grouptitle":"TemplateParameter_Group","variableName":"TemplateParameter_Name","defaultvalue":"1234","allowBlank":false,"displayName":"TemplateParameter_DisplayName","paramDescription":"TemplateParameter_Tooltip","variableValue":"12345"}],"transactionVariable":[{"xtype":"textfield","grouptitle":"TransactionParameter_Group","variableName":"TransactionParameter_Name","allowBlank":false,"displayName":"TransactionParameter_DisplayName","paramDescription":"TransactionParameter_Tooltip","pattern":"a-zA-Z0-9"}]}]]></VARIABLE_INFO>
         <NAME><![CDATA[SS_Tooltip_TempTrnx_Parameter]]></NAME>
         <SRC_TRIGGER><![CDATA[FileModified]]></SRC_TRIGGER>
-        <MODIFIED_GROUP><![CDATA[IndigoGroup:127000000001107055548721600002]]></MODIFIED_GROUP>
-        <MODIFIED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></MODIFIED_USER>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <MODIFIED_BY><![CDATA[Admin User]]></MODIFIED_BY>
+        <CREATED_GROUP><![CDATA[IndigoGroup:127000000001107055548721600002]]></CREATED_GROUP>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="0">
         <column name="ID" type="2"/>

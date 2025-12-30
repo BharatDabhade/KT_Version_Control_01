@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_DATABASEPOLLINGSERVICE>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <sqlQuery><![CDATA[SELECT * FROM sourcetest1 WHERE AGE = 25]]></sqlQuery>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_description><![CDATA[SS_Database_Polling]]></au_description>
-        <conditionValue><![CDATA[]]></conditionValue>
-        <au_modifiedDate><![CDATA[2025-12-26 07:22:49.997]]></au_modifiedDate>
-        <au_comments><![CDATA[null]]></au_comments>
-        <tempraryTableName><![CDATA[dbpollingtable]]></tempraryTableName>
-        <au_userOwner><![CDATA[IndigoUser:11762755760675]]></au_userOwner>
-        <dbtrigger><![CDATA[]]></dbtrigger>
-        <au_entityName><![CDATA[zz]]></au_entityName>
-        <au_modifiedBy><![CDATA[IndigoUser:11762755760675]]></au_modifiedBy>
-        <checkCondition><![CDATA[false]]></checkCondition>
-        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
-        <au_creationDate><![CDATA[2025-12-26 07:22:49.997]]></au_creationDate>
-        <operators><![CDATA[null]]></operators>
-        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
         <tableName><![CDATA[null]]></tableName>
-        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
+        <au_description><![CDATA[SS_Database_Polling]]></au_description>
+        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
+        <conditionValue><![CDATA[]]></conditionValue>
+        <checkCondition><![CDATA[false]]></checkCondition>
+        <au_modifiedDate><![CDATA[2025-12-26 07:22:49.997]]></au_modifiedDate>
+        <operators><![CDATA[null]]></operators>
         <dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:172020003010176657296936300124]]></dbConnectionInfoId>
-        <triggerName><![CDATA[]]></triggerName>
-        <au_revision><![CDATA[5dcc2ad2d2456041bb50d05c1ea177c754d91cea]]></au_revision>
-        <au_version><![CDATA[1]]></au_version>
-        <au_id><![CDATA[172020003010176673376999500019]]></au_id>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <sqlQuery><![CDATA[SELECT * FROM sourcetest1 WHERE AGE = 25]]></sqlQuery>
+        <au_creationDate><![CDATA[2025-12-26 07:22:49.997]]></au_creationDate>
+        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
+        <au_revision><![CDATA[fda7c70cde882056d6c4f873f8c11d703c4bb710]]></au_revision>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_userOwner><![CDATA[IndigoUser:11762755760675]]></au_userOwner>
+        <au_entityName><![CDATA[zz]]></au_entityName>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_version><![CDATA[1]]></au_version>
+        <triggerName><![CDATA[]]></triggerName>
+        <dbtrigger><![CDATA[]]></dbtrigger>
+        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <tempraryTableName><![CDATA[dbpollingtable]]></tempraryTableName>
+        <au_id><![CDATA[172020003010176673376999500019]]></au_id>
+        <au_modifiedBy><![CDATA[IndigoUser:11762755760675]]></au_modifiedBy>
     </AU_DATABASEPOLLINGSERVICE>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
