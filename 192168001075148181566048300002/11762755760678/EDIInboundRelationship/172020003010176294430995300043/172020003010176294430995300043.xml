@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_EDIINBOUNDRELATIONSHIP>
-        <au_timestampForTranslations2><![CDATA[false]]></au_timestampForTranslations2>
-        <au_associationAssignedCode><![CDATA[1]]></au_associationAssignedCode>
-        <au_modeForTranslations3><![CDATA[null]]></au_modeForTranslations3>
-        <au_docAdvLastUsedControlNo><![CDATA[]]></au_docAdvLastUsedControlNo>
-        <au_fileArchivalInfo><![CDATA[{"isArchived":"false","inboundArchiveFilePath":"","isCreateTimeStampFolder":"false","timestampForTranslations1":"false","archiveSourceFileDateFormat1":"0","archiveSourceFileTimeFormat1":"0","status":601,"inboundArchiveStrategy":"default","archiveFilePattern":"0_0"}]]></au_fileArchivalInfo>
-        <au_groupAdvSequenceCheck><![CDATA[None]]></au_groupAdvSequenceCheck>
-        <au_targetFileName2><![CDATA[null]]></au_targetFileName2>
-        <au_targetActivityType1><![CDATA[FtpTarget]]></au_targetActivityType1>
-        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
-        <au_inboundSourceLocation><![CDATA[FTPEvent:172020003010176294434968900044]]></au_inboundSourceLocation>
-        <au_isDecryptionRequired><![CDATA[false]]></au_isDecryptionRequired>
-        <au_translationsMapping2><![CDATA[None]]></au_translationsMapping2>
-        <au_translationsMapping3><![CDATA[None]]></au_translationsMapping3>
-        <au_interAdvSequenceCheck><![CDATA[None]]></au_interAdvSequenceCheck>
-        <au_ediStandard><![CDATA[X12]]></au_ediStandard>
-        <au_timestampForTranslations1><![CDATA[false]]></au_timestampForTranslations1>
-        <au_targetActivity3><![CDATA[none]]></au_targetActivity3>
-        <au_docUsedGlobalControlNo><![CDATA[false]]></au_docUsedGlobalControlNo>
-        <au_transCountToProcess><![CDATA[2000]]></au_transCountToProcess>
-        <au_ackType><![CDATA[null]]></au_ackType>
-        <au_interAdvLastUsedControlNo><![CDATA[]]></au_interAdvLastUsedControlNo>
-        <au_groupAdvLastUsedControlNo><![CDATA[]]></au_groupAdvLastUsedControlNo>
-        <au_entityName><![CDATA[EDIInboundRelationship_11762925049026_6]]></au_entityName>
-        <au_translationsMapping1><![CDATA[DataMapping:172020003010176294440692500047]]></au_translationsMapping1>
-        <au_isEncryptionnRequired><![CDATA[false]]></au_isEncryptionnRequired>
-        <au_targetActivity2><![CDATA[none]]></au_targetActivity2>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_targetActivityType3><![CDATA[none]]></au_targetActivityType3>
-        <au_timestampForTranslations3><![CDATA[false]]></au_timestampForTranslations3>
-        <au_docAdvSkipComplianceCheck><![CDATA[false]]></au_docAdvSkipComplianceCheck>
-        <au_groupUsedGlobalControlNo><![CDATA[false]]></au_groupUsedGlobalControlNo>
-        <au_targetActivityType2><![CDATA[none]]></au_targetActivityType2>
-        <au_ediStandardVersion><![CDATA[004010]]></au_ediStandardVersion>
-        <au_ackProcessing><![CDATA[reconcile]]></au_ackProcessing>
-        <au_hipaa><![CDATA[false]]></au_hipaa>
-        <au_ediTransactionSet><![CDATA[214]]></au_ediTransactionSet>
-        <au_id><![CDATA[172020003010176294430995300043]]></au_id>
-        <au_interUsedGlobalControlNo><![CDATA[false]]></au_interUsedGlobalControlNo>
-        <au_modeForTranslations1><![CDATA[Create]]></au_modeForTranslations1>
-        <au_targetActivity1><![CDATA[FtpTarget:172020003010176294437500000046]]></au_targetActivity1>
-        <au_groupFunctionalID><![CDATA[QM]]></au_groupFunctionalID>
-        <au_modifiedDate><![CDATA[2025-11-12 10:45:09.953]]></au_modifiedDate>
-        <au_creationDate><![CDATA[2025-11-12 10:45:09.953]]></au_creationDate>
-        <au_docAdvTestIndicator><![CDATA[T]]></au_docAdvTestIndicator>
-        <au_docAdvGenerateAck><![CDATA[no]]></au_docAdvGenerateAck>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_decryptionActivity><![CDATA[null]]></au_decryptionActivity>
-        <au_targetFileName3><![CDATA[null]]></au_targetFileName3>
-        <au_version><![CDATA[1]]></au_version>
-        <au_inboundTranslations><![CDATA[null]]></au_inboundTranslations>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
         <au_parentServiceTypedID><![CDATA[EDITradingPartner:172020003010176294430053600042]]></au_parentServiceTypedID>
-        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
-        <au_inboundSourceType><![CDATA[Ftp]]></au_inboundSourceType>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_modifiedBy><![CDATA[IndigoUser:11762755760742]]></au_modifiedBy>
-        <au_encryptionActivity><![CDATA[null]]></au_encryptionActivity>
+        <au_translationsMapping1><![CDATA[DataMapping:172020003010176294440692500047]]></au_translationsMapping1>
+        <au_ackType><![CDATA[null]]></au_ackType>
+        <au_entityName><![CDATA[EDIInboundRelationship_11762925049026_6]]></au_entityName>
+        <au_targetActivity1><![CDATA[FtpTarget:172020003010176294437500000046]]></au_targetActivity1>
+        <au_associationAssignedCode><![CDATA[1]]></au_associationAssignedCode>
+        <au_targetActivityType1><![CDATA[FtpTarget]]></au_targetActivityType1>
         <au_ackStandard><![CDATA[]]></au_ackStandard>
-        <au_description><![CDATA[EDIInboundRelationship_11762925049026_6]]></au_description>
-        <au_modeForTranslations2><![CDATA[null]]></au_modeForTranslations2>
-        <au_docAdvSequenceCheck><![CDATA[None]]></au_docAdvSequenceCheck>
-        <au_status><![CDATA[OFF]]></au_status>
-        <au_targetFileName1><![CDATA[X12_BI|0|0|txt|Y]]></au_targetFileName1>
-        <au_userOwner><![CDATA[IndigoUser:11762755760742]]></au_userOwner>
-        <au_synchronized><![CDATA[false]]></au_synchronized>
         <au_comments><![CDATA[null]]></au_comments>
+        <au_timestampForTranslations1><![CDATA[false]]></au_timestampForTranslations1>
+        <au_targetActivityType2><![CDATA[none]]></au_targetActivityType2>
+        <au_targetActivity2><![CDATA[none]]></au_targetActivity2>
+        <au_version><![CDATA[1]]></au_version>
+        <au_modeForTranslations1><![CDATA[Create]]></au_modeForTranslations1>
+        <au_targetActivity3><![CDATA[none]]></au_targetActivity3>
+        <au_hipaa><![CDATA[false]]></au_hipaa>
+        <au_targetFileName2><![CDATA[null]]></au_targetFileName2>
+        <au_isDecryptionRequired><![CDATA[false]]></au_isDecryptionRequired>
+        <au_targetFileName3><![CDATA[null]]></au_targetFileName3>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:11762755760742]]></au_userOwner>
+        <au_modeForTranslations3><![CDATA[null]]></au_modeForTranslations3>
+        <au_modifiedBy><![CDATA[IndigoUser:11762755760742]]></au_modifiedBy>
+        <au_timestampForTranslations3><![CDATA[false]]></au_timestampForTranslations3>
+        <au_targetFileName1><![CDATA[X12_BI|0|0|txt|Y]]></au_targetFileName1>
+        <au_id><![CDATA[172020003010176294430995300043]]></au_id>
+        <au_ediStandard><![CDATA[X12]]></au_ediStandard>
+        <au_docAdvTestIndicator><![CDATA[T]]></au_docAdvTestIndicator>
+        <au_groupAdvLastUsedControlNo><![CDATA[]]></au_groupAdvLastUsedControlNo>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_inboundSourceType><![CDATA[Ftp]]></au_inboundSourceType>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
+        <au_groupAdvSequenceCheck><![CDATA[None]]></au_groupAdvSequenceCheck>
+        <au_interAdvSequenceCheck><![CDATA[None]]></au_interAdvSequenceCheck>
+        <au_revision><![CDATA[0ef953dedfa3a222e41cb9627b8f1f877dd21862]]></au_revision>
+        <au_docUsedGlobalControlNo><![CDATA[false]]></au_docUsedGlobalControlNo>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_modeForTranslations2><![CDATA[null]]></au_modeForTranslations2>
+        <au_creationDate><![CDATA[2025-11-12 10:45:09.953]]></au_creationDate>
+        <au_ediStandardVersion><![CDATA[004010]]></au_ediStandardVersion>
+        <au_interAdvLastUsedControlNo><![CDATA[]]></au_interAdvLastUsedControlNo>
         <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_ackProcessing><![CDATA[reconcile]]></au_ackProcessing>
+        <au_docAdvSequenceCheck><![CDATA[None]]></au_docAdvSequenceCheck>
+        <au_encryptionActivity><![CDATA[null]]></au_encryptionActivity>
+        <au_docAdvSkipComplianceCheck><![CDATA[false]]></au_docAdvSkipComplianceCheck>
+        <au_targetActivityType3><![CDATA[none]]></au_targetActivityType3>
+        <au_translationsMapping2><![CDATA[None]]></au_translationsMapping2>
+        <au_fileArchivalInfo><![CDATA[{"isArchived":"false","inboundArchiveFilePath":"","isCreateTimeStampFolder":"false","timestampForTranslations1":"false","archiveSourceFileDateFormat1":"0","archiveSourceFileTimeFormat1":"0","status":601,"inboundArchiveStrategy":"default","archiveFilePattern":"0_0"}]]></au_fileArchivalInfo>
+        <au_status><![CDATA[OFF]]></au_status>
+        <au_docAdvLastUsedControlNo><![CDATA[]]></au_docAdvLastUsedControlNo>
+        <au_isEncryptionnRequired><![CDATA[false]]></au_isEncryptionnRequired>
+        <au_transCountToProcess><![CDATA[2000]]></au_transCountToProcess>
+        <au_timestampForTranslations2><![CDATA[false]]></au_timestampForTranslations2>
+        <au_ediTransactionSet><![CDATA[214]]></au_ediTransactionSet>
+        <au_decryptionActivity><![CDATA[null]]></au_decryptionActivity>
+        <au_translationsMapping3><![CDATA[None]]></au_translationsMapping3>
+        <au_modifiedDate><![CDATA[2025-11-12 10:45:09.953]]></au_modifiedDate>
+        <au_inboundTranslations><![CDATA[null]]></au_inboundTranslations>
+        <au_groupUsedGlobalControlNo><![CDATA[false]]></au_groupUsedGlobalControlNo>
+        <au_interUsedGlobalControlNo><![CDATA[false]]></au_interUsedGlobalControlNo>
+        <au_inboundSourceLocation><![CDATA[FTPEvent:172020003010176294434968900044]]></au_inboundSourceLocation>
+        <au_groupFunctionalID><![CDATA[QM]]></au_groupFunctionalID>
+        <au_docAdvGenerateAck><![CDATA[no]]></au_docAdvGenerateAck>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_description><![CDATA[EDIInboundRelationship_11762925049026_6]]></au_description>
     </AU_EDIINBOUNDRELATIONSHIP>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>

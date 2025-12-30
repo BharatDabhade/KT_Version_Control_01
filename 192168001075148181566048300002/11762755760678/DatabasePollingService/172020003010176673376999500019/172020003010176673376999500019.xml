@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_DATABASEPOLLINGSERVICE>
-        <au_synchronized><![CDATA[false]]></au_synchronized>
-        <triggerName><![CDATA[]]></triggerName>
-        <au_modifiedBy><![CDATA[IndigoUser:11762755760675]]></au_modifiedBy>
-        <au_description><![CDATA[SS_Database_Polling]]></au_description>
         <au_entityName><![CDATA[zz]]></au_entityName>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_version><![CDATA[1]]></au_version>
-        <au_userOwner><![CDATA[IndigoUser:11762755760675]]></au_userOwner>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
         <tempraryTableName><![CDATA[dbpollingtable]]></tempraryTableName>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
         <au_modifiedDate><![CDATA[2025-12-26 07:22:49.997]]></au_modifiedDate>
+        <au_description><![CDATA[SS_Database_Polling]]></au_description>
+        <tableName><![CDATA[null]]></tableName>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_creationDate><![CDATA[2025-12-26 07:22:49.997]]></au_creationDate>
         <checkCondition><![CDATA[false]]></checkCondition>
-        <dbtrigger><![CDATA[]]></dbtrigger>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <conditionValue><![CDATA[]]></conditionValue>
-        <dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:172020003010176657296936300124]]></dbConnectionInfoId>
-        <operators><![CDATA[null]]></operators>
-        <au_id><![CDATA[172020003010176673376999500019]]></au_id>
-        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
-        <tableName><![CDATA[null]]></tableName>
-        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
         <sqlQuery><![CDATA[SELECT * FROM sourcetest1 WHERE AGE = 25]]></sqlQuery>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_comments><![CDATA[null]]></au_comments>
+        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
+        <triggerName><![CDATA[]]></triggerName>
+        <dbConnectionInfoId><![CDATA[DatabaseConnectionInfo:172020003010176657296936300124]]></dbConnectionInfoId>
+        <au_version><![CDATA[1]]></au_version>
+        <au_userOwner><![CDATA[IndigoUser:11762755760675]]></au_userOwner>
+        <au_expiryTime><![CDATA[2$m]]></au_expiryTime>
         <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
+        <dbtrigger><![CDATA[]]></dbtrigger>
+        <conditionValue><![CDATA[]]></conditionValue>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_id><![CDATA[172020003010176673376999500019]]></au_id>
+        <au_revision><![CDATA[0ef953dedfa3a222e41cb9627b8f1f877dd21862]]></au_revision>
+        <operators><![CDATA[null]]></operators>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:11762755760675]]></au_modifiedBy>
     </AU_DATABASEPOLLINGSERVICE>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>

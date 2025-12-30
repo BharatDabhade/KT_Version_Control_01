@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <ID><![CDATA[11766466736364]]></ID>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <CREATED_BY><![CDATA[Admin User]]></CREATED_BY>
-        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
-        <DESCRIPTION><![CDATA[SS_Test_Temp]]></DESCRIPTION>
-        <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
-        <CREATED_ROLE><![CDATA[1]]></CREATED_ROLE>
         <CREATION_DATE><![CDATA[2025-12-23 05:53:03.78]]></CREATION_DATE>
-        <SRC_APP_TYPE><![CDATA[null]]></SRC_APP_TYPE>
-        <MODIFIED_DATE><![CDATA[2025-12-23 06:01:52.72]]></MODIFIED_DATE>
-        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
-        <SYNCHRONIZED><![CDATA[null]]></SYNCHRONIZED>
-        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
+        <ID><![CDATA[11766466736364]]></ID>
+        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
+        <CREATED_BY><![CDATA[Admin User]]></CREATED_BY>
         <CREATED_GROUP><![CDATA[IndigoGroup:127000000001107055548721600002]]></CREATED_GROUP>
+        <PROJECT_OWNER><![CDATA[Project:11762755760678]]></PROJECT_OWNER>
+        <NAME><![CDATA[SS_Test_Temp]]></NAME>
+        <DOCUMENTATION><![CDATA[null]]></DOCUMENTATION>
+        <DESCRIPTION><![CDATA[SS_Test_Temp]]></DESCRIPTION>
+        <MODIFIED_BY><![CDATA[Admin User]]></MODIFIED_BY>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
+        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <MODIFIED_ROLE><![CDATA[1]]></MODIFIED_ROLE>
+        <STATUS><![CDATA[602]]></STATUS>
+        <DEST_APP_TYPE><![CDATA[null]]></DEST_APP_TYPE>
+        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
+        <CONTACT_USER><![CDATA[null]]></CONTACT_USER>
+        <VARIABLE_INFO><![CDATA[{"templateVariable":[{"xtype":"numberfield","grouptitle":"TempPara_Grp","variableName":"TempPara_Name","defaultvalue":"1234567890","allowBlank":false,"displayName":"TempPara_DisName","paramDescription":"TempPara_Tooltip","variableValue":"1234567890"}],"transactionVariable":[{"xtype":"numberfield","grouptitle":"TrnxPara_Grp","variableName":"TrnxPara_Name","defaultvalue":"1234","allowBlank":false,"displayName":"TrnxPara_DisName","paramDescription":"TrnxPara_Tooltip"}]}]]></VARIABLE_INFO>
+        <SRC_APP_TYPE><![CDATA[null]]></SRC_APP_TYPE>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
+        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
+        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
+        <REVISION><![CDATA[0ef953dedfa3a222e41cb9627b8f1f877dd21862]]></REVISION>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <SRC_REFERENCE_FIELD><![CDATA[null]]></SRC_REFERENCE_FIELD>
+        <MODIFIED_DATE><![CDATA[2025-12-23 06:01:52.72]]></MODIFIED_DATE>
+        <SRC_TRIGGER><![CDATA[null]]></SRC_TRIGGER>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
+        <CREATED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></CREATED_USER>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <DISPLAY_NAME><![CDATA[SS_Test_Temp]]></DISPLAY_NAME>
         <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
         <MODIFIED_GROUP><![CDATA[IndigoGroup:127000000001107055548721600002]]></MODIFIED_GROUP>
-        <CONTACT_USER><![CDATA[null]]></CONTACT_USER>
-        <REVISION><![CDATA[null]]></REVISION>
-        <VARIABLE_INFO><![CDATA[{"templateVariable":[{"xtype":"numberfield","grouptitle":"TempPara_Grp","variableName":"TempPara_Name","defaultvalue":"1234567890","allowBlank":false,"displayName":"TempPara_DisName","paramDescription":"TempPara_Tooltip","variableValue":"1234567890"}],"transactionVariable":[{"xtype":"numberfield","grouptitle":"TrnxPara_Grp","variableName":"TrnxPara_Name","defaultvalue":"1234","allowBlank":false,"displayName":"TrnxPara_DisName","paramDescription":"TrnxPara_Tooltip"}]}]]></VARIABLE_INFO>
-        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
-        <NAME><![CDATA[SS_Test_Temp]]></NAME>
+        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <TYPE><![CDATA[504]]></TYPE>
+        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
         <PARAMETERS_INFO><![CDATA[{"wizardMode":"wizard"}]]></PARAMETERS_INFO>
         <DIRECTION><![CDATA[3200]]></DIRECTION>
-        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
-        <TYPE><![CDATA[504]]></TYPE>
-        <MODIFIED_BY><![CDATA[Admin User]]></MODIFIED_BY>
-        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
-        <DISPLAY_NAME><![CDATA[SS_Test_Temp]]></DISPLAY_NAME>
-        <STATUS><![CDATA[602]]></STATUS>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
-        <MODIFIED_ROLE><![CDATA[1]]></MODIFIED_ROLE>
-        <CREATED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></CREATED_USER>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <MODIFIED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></MODIFIED_USER>
-        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
-        <SRC_REFERENCE_FIELD><![CDATA[null]]></SRC_REFERENCE_FIELD>
-        <DEST_APP_TYPE><![CDATA[null]]></DEST_APP_TYPE>
+        <CREATED_ROLE><![CDATA[1]]></CREATED_ROLE>
+        <SYNCHRONIZED><![CDATA[1]]></SYNCHRONIZED>
         <DEST_ACTION><![CDATA[null]]></DEST_ACTION>
-        <SRC_TRIGGER><![CDATA[null]]></SRC_TRIGGER>
-        <PROJECT_OWNER><![CDATA[Project:11762755760678]]></PROJECT_OWNER>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <DOCUMENTATION><![CDATA[null]]></DOCUMENTATION>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <MODIFIED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></MODIFIED_USER>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="0">
         <column name="ID" type="2"/>

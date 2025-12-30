@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_MAPPINGTRANSFORMATION>
-        <au_modifiedBy><![CDATA[IndigoUser:11762755760742]]></au_modifiedBy>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_version><![CDATA[1]]></au_version>
+        <au_entityName><![CDATA[sac]]></au_entityName>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_persistDataEnabled><![CDATA[false]]></au_persistDataEnabled>
+        <au_optimizedLoading><![CDATA[true]]></au_optimizedLoading>
+        <au_aimapTrained><![CDATA[false]]></au_aimapTrained>
+        <au_id><![CDATA[172020003010176294440692500047]]></au_id>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":null,"sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"sac","mappingProject":"Project:11762755760678","mappingDescription":"sacacc","sourceSchemaID":"EDISchema:010000000049156325407960100003","targetSchemaID":"TextSchema:172020003010176240878154400003","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":null},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"ss_text_layout","schemaID":"TextSchema:172020003010176240878154400003","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"EDIRoot","schemaName":"X12_004010_214","schemaID":"EDISchema:010000000049156325407960100003"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"ss_text_layout","targetfield":"Record","targetfieldpath":"/Root/Record","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1762944398438","elementItem":{"elementType":"SourceElement","name":"TS_214","expression":"$Input_X12_004010_214/EDIRoot/TS_214","paramsCount":0,"syntax":"$Input_X12_004010_214/EDIRoot/TS_214"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1762944398439_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1762944398439"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1762944398439","elementItem":{"elementType":"TargetElement","name":"Record","expression":"$Input_X12_004010_214/EDIRoot/TS_214","paramsCount":1,"syntax":"ss_text_layout/Root/Record"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1762944398438"]}],"expression":"$Input_X12_004010_214/EDIRoot/TS_214","targetrecord":"Root","mapping":[{"sourceName":"X12_004010_214","operatortype":"field","sourcefield":"TS_214","sourcefielddisplayname":"TS_214","sourcefieldpath":"/EDIRoot/TS_214","sourcerecord":"EDIRoot"}],"markComplete":false,"mapId":"Map-1"},{"order":1,"targetName":"ss_text_layout","targetfield":"NAME","targetfieldpath":"/Root/Record/NAME","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1762944403973","elementItem":{"elementType":"SourceElement","name":"B1003","expression":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003","paramsCount":0,"syntax":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1762944403974_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1762944403974"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1762944403974","elementItem":{"elementType":"TargetElement","name":"NAME","expression":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003","paramsCount":1,"syntax":"ss_text_layout/Root/Record/NAME"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1762944403973"]}],"expression":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003","targetrecord":"Record","mapping":[{"sourceName":"X12_004010_214","operatortype":"field","sourcefield":"B1003","sourcefielddisplayname":"B1003","sourcefieldpath":"/EDIRoot/TS_214/B10/B1003","sourcerecord":"B10"}],"markComplete":false,"mapId":"Map-2"}],"sourceExpandLevel":3,"targetExpandLevel":3}]]></au_json>
         <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_targetSchema><![CDATA[TextSchema:172020003010176240878154400003]]></au_targetSchema>
+        <au_aimapFreeze><![CDATA[false]]></au_aimapFreeze>
         <au_pdfFileName><![CDATA[Adp_Map_Rules12163898642906840648.pdf]]></au_pdfFileName>
-        <au_synchronized><![CDATA[false]]></au_synchronized>
-        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
-        <au_userOwner><![CDATA[IndigoUser:11762755760742]]></au_userOwner>
+        <au_revision><![CDATA[0ef953dedfa3a222e41cb9627b8f1f877dd21862]]></au_revision>
+        <au_splitFile><![CDATA[false]]></au_splitFile>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_enableAIMap><![CDATA[false]]></au_enableAIMap>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_modifiedDate><![CDATA[2025-11-12 10:47:38.0]]></au_modifiedDate>
+        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
         <au_xslFile><![CDATA[<?xml version='1.0'?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
 <xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="EDIRoot/TS_214" mode="_Root_Record_order1">
 </xsl:apply-templates></Root></xsl:template><xsl:template match="/EDIRoot/TS_214" mode="_Root_Record_order1">
 <Record><xsl:attribute name="recordNumber"></xsl:attribute><NAME><xsl:value-of select="B10/B1003"/></NAME><SEX></SEX><AGE></AGE><CITY></CITY><FIRST></FIRST><LAST></LAST><GENDER></GENDER><SCHOOL></SCHOOL><STATE></STATE><COUNTRY></COUNTRY><LOCATION></LOCATION><MARRIED></MARRIED><ADDRESS></ADDRESS><STATION></STATION><DATEOFBIRTH></DATEOFBIRTH><HOSPITALNAME></HOSPITALNAME><HOBBIES></HOBBIES></Record></xsl:template></xsl:stylesheet>]]></au_xslFile>
-        <au_creationDate><![CDATA[2025-11-12 10:46:46.927]]></au_creationDate>
-        <au_enableAIMap><![CDATA[false]]></au_enableAIMap>
-        <au_optimizedLoading><![CDATA[true]]></au_optimizedLoading>
-        <au_persistDataEnabled><![CDATA[false]]></au_persistDataEnabled>
-        <au_id><![CDATA[172020003010176294440692500047]]></au_id>
-        <au_splitFile><![CDATA[false]]></au_splitFile>
-        <au_aimapFreeze><![CDATA[false]]></au_aimapFreeze>
-        <au_targetSchema><![CDATA[TextSchema:172020003010176240878154400003]]></au_targetSchema>
-        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_description><![CDATA[sacacc]]></au_description>
-        <au_modifiedDate><![CDATA[2025-11-12 10:47:38.0]]></au_modifiedDate>
-        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
-        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
-        <au_aimapTrained><![CDATA[false]]></au_aimapTrained>
-        <au_sourceSchema><![CDATA[EDISchema:010000000049156325407960100003]]></au_sourceSchema>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_parallelProcessing><![CDATA[false]]></au_parallelProcessing>
-        <au_metadata><![CDATA[]]></au_metadata>
         <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
 <mappingInformation>
 <mappingVersion>6.1</mappingVersion>
@@ -184,16 +182,18 @@
 <targetXpath/>
 </maps>
 ]]></au_mapXmlFile>
-        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
-        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_userOwner><![CDATA[IndigoUser:11762755760742]]></au_userOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:11762755760742]]></au_modifiedBy>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_description><![CDATA[sacacc]]></au_description>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_sourceSchema><![CDATA[EDISchema:010000000049156325407960100003]]></au_sourceSchema>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_reusable><![CDATA[true]]></au_reusable>
-        <au_version><![CDATA[1]]></au_version>
+        <au_parallelProcessing><![CDATA[false]]></au_parallelProcessing>
+        <au_creationDate><![CDATA[2025-11-12 10:46:46.927]]></au_creationDate>
         <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
-        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":null,"sourceXpath":"","targetXpath":"","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"sac","mappingProject":"Project:11762755760678","mappingDescription":"sacacc","sourceSchemaID":"EDISchema:010000000049156325407960100003","targetSchemaID":"TextSchema:172020003010176240878154400003","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":null},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"ss_text_layout","schemaID":"TextSchema:172020003010176240878154400003","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"EDIRoot","schemaName":"X12_004010_214","schemaID":"EDISchema:010000000049156325407960100003"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"ss_text_layout","targetfield":"Record","targetfieldpath":"/Root/Record","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1762944398438","elementItem":{"elementType":"SourceElement","name":"TS_214","expression":"$Input_X12_004010_214/EDIRoot/TS_214","paramsCount":0,"syntax":"$Input_X12_004010_214/EDIRoot/TS_214"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1762944398439_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1762944398439"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1762944398439","elementItem":{"elementType":"TargetElement","name":"Record","expression":"$Input_X12_004010_214/EDIRoot/TS_214","paramsCount":1,"syntax":"ss_text_layout/Root/Record"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1762944398438"]}],"expression":"$Input_X12_004010_214/EDIRoot/TS_214","targetrecord":"Root","mapping":[{"sourceName":"X12_004010_214","operatortype":"field","sourcefield":"TS_214","sourcefielddisplayname":"TS_214","sourcefieldpath":"/EDIRoot/TS_214","sourcerecord":"EDIRoot"}],"markComplete":false,"mapId":"Map-1"},{"order":1,"targetName":"ss_text_layout","targetfield":"NAME","targetfieldpath":"/Root/Record/NAME","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1762944403973","elementItem":{"elementType":"SourceElement","name":"B1003","expression":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003","paramsCount":0,"syntax":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1762944403974_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1762944403974"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1762944403974","elementItem":{"elementType":"TargetElement","name":"NAME","expression":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003","paramsCount":1,"syntax":"ss_text_layout/Root/Record/NAME"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1762944403973"]}],"expression":"$Input_X12_004010_214/EDIRoot/TS_214/B10/B1003","targetrecord":"Record","mapping":[{"sourceName":"X12_004010_214","operatortype":"field","sourcefield":"B1003","sourcefielddisplayname":"B1003","sourcefieldpath":"/EDIRoot/TS_214/B10/B1003","sourcerecord":"B10"}],"markComplete":false,"mapId":"Map-2"}],"sourceExpandLevel":3,"targetExpandLevel":3}]]></au_json>
-        <au_entityName><![CDATA[sac]]></au_entityName>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_reusable><![CDATA[true]]></au_reusable>
     </AU_MAPPINGTRANSFORMATION>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
