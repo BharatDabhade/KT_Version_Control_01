@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_GROUPS>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_comments><![CDATA[]]></au_comments>
-        <au_id><![CDATA[192168001075148181566048300002]]></au_id>
-        <au_userOwner><![CDATA[IndigoUser:11744001963631]]></au_userOwner>
-        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_revision><![CDATA[b15d7aa6900426146acc8380f8a8c3a9a38c4c4e]]></au_revision>
-        <au_title><![CDATA[]]></au_title>
-        <au_modifiedBy><![CDATA[IndigoUser:11744001963631]]></au_modifiedBy>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_permissionMask><![CDATA[711]]></au_permissionMask>
-        <au_comment><![CDATA[]]></au_comment>
-        <au_version><![CDATA[1]]></au_version>
-        <au_entityName><![CDATA[Group_1]]></au_entityName>
-        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
         <au_creationDate><![CDATA[2016-12-15 10:31:16.0]]></au_creationDate>
-        <au_modifiedDate><![CDATA[2016-12-15 11:00:28.0]]></au_modifiedDate>
+        <au_modifiedBy><![CDATA[IndigoUser:11744001963631]]></au_modifiedBy>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_permissionMask><![CDATA[711]]></au_permissionMask>
+        <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[9aecf0f4cb2d7cb303fa7ad5b3b2a00e49adc63f]]></au_revision>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_comments><![CDATA[]]></au_comments>
         <au_description><![CDATA[Dummy Group]]></au_description>
+        <au_id><![CDATA[192168001075148181566048300002]]></au_id>
+        <au_modifiedDate><![CDATA[2016-12-15 11:00:28.0]]></au_modifiedDate>
+        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_groupInfo><![CDATA[K8QswfddIduKjYZJo7AwgclYZPnFCTzRUSyxdim3JrzK5v8CUYpBult9MBz+2s6/]]></au_groupInfo>
+        <au_userOwner><![CDATA[IndigoUser:11744001963631]]></au_userOwner>
+        <au_comment><![CDATA[]]></au_comment>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_title><![CDATA[]]></au_title>
+        <au_entityName><![CDATA[Group_1]]></au_entityName>
     </AU_GROUPS>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
