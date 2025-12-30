@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_enableAIMap><![CDATA[false]]></au_enableAIMap>
+        <au_userOwner><![CDATA[IndigoUser:010000000162170842436562200004]]></au_userOwner>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_reusable><![CDATA[true]]></au_reusable>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+<mappingVersion>6.1</mappingVersion>
+<mappingName>sv_mappint_4</mappingName>
+<mappingProject>Project:11762755760678</mappingProject>
+<mappingDescription>test</mappingDescription>
+<sourceSchemaID>XMLSchema:010000000162170849412625600063</sourceSchemaID>
+<targetSchemaID>ExcelSchema:010000000162170849419967000068</targetSchemaID>
+<mappingOwnerGroup>Group_1</mappingOwnerGroup>
+<mappingOwner>Sunil Verma</mappingOwner>
+<mappingLastModifiedBy>Admin User</mappingLastModifiedBy>
+<mappingCreationDate>Wed Feb 21 05:45:30 UTC 2024</mappingCreationDate>
+<mappingModifiedDate>Mon Nov 10 07:15:12 UTC 2025</mappingModifiedDate>
+<reusable>null</reusable>
+</mappingInformation>
+<sourceRoots>
+<sourceRoot>
+<name>Root</name>
+<schemaName>sv_xml_04</schemaName>
+<schemaID>XMLSchema:010000000162170849412625600063</schemaID>
+</sourceRoot>
+</sourceRoots>
+<targetRoots>
+<targetRoot>
+<name>Root</name>
+<schemaName>sv_excel_04</schemaName>
+<schemaID>ExcelSchema:010000000162170849419967000068</schemaID>
+<stream>output_1</stream>
+</targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>sv_excel_04</targetName>
+<dest>/Root/Record/City</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_sv_xml_04/Root/Record/City</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="City">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/City" mapString="$Input_sv_xml_04/Root/Record/City" x="300" y="10">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_sv_xml_04/Root/Record/City" mapString="&lt;S&gt;$Input_sv_xml_04/Root/Record/City" x="20" y="10">
+<SourceLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>sv_excel_04</targetName>
+<dest>/Root/Record/Company</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_sv_xml_04/Root/Record/State</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="Company">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Company" mapString="$Input_sv_xml_04/Root/Record/State" x="300" y="10">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_sv_xml_04/Root/Record/State" mapString="&lt;S&gt;$Input_sv_xml_04/Root/Record/State" x="20" y="10">
+<SourceLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>sv_excel_04</targetName>
+<dest>/Root/Record/L_Name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_sv_xml_04/Root/Record/Last_Name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="L_Name">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/L_Name" mapString="$Input_sv_xml_04/Root/Record/Last_Name" x="300" y="10">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_sv_xml_04/Root/Record/Last_Name" mapString="&lt;S&gt;$Input_sv_xml_04/Root/Record/Last_Name" x="20" y="10">
+<SourceLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>sv_excel_04</targetName>
+<dest>/Root/Record/Name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_sv_xml_04/Root/Record/First_Name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="Name">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Name" mapString="$Input_sv_xml_04/Root/Record/First_Name" x="300" y="10">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_sv_xml_04/Root/Record/First_Name" mapString="&lt;S&gt;$Input_sv_xml_04/Root/Record/First_Name" x="20" y="10">
+<SourceLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<map>
+<order>1</order>
+ <targetName>sv_excel_04</targetName>
+<dest>/Root/Record</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_sv_xml_04/Root/Record</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/> <Sorting/>
+ <Target name="Record">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record" mapString="$Input_sv_xml_04/Root/Record" x="300" y="10">
+<SourceLines/>
+<TargetLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_sv_xml_04/Root/Record" mapString="&lt;S&gt;$Input_sv_xml_04/Root/Record" x="20" y="10">
+<SourceLines>
+<Line x1="100" y1="22" x2="280" y2="22"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+<valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+<globalTemplate>global</globalTemplate>
+<customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+<streamingMode>false</streamingMode>
+<filterEmptyElements>false</filterEmptyElements>
+<dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>10</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>5</TreeExpandLevelForEasySchemaExtensions>
+<SelfRecursionLevel>0</SelfRecursionLevel>
+<EnableTypesBuffering>true</EnableTypesBuffering>
+<CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+<consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath>false</sourceXpath>
+<targetXpath>false</targetXpath>
+</maps>
+]]></au_mapXmlFile>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":"50","dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":"10","TreeExpandLevelForEasySchemaExtensions":"5","SelfRecursionLevel":"0","EnableTypesBuffering":true,"TreeExpandLevelCount":"3","onDemandLoadingOfXMLSchemaTree":false,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":"50","dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":"10","TreeExpandLevelForEasySchemaExtensions":"5","SelfRecursionLevel":"0","EnableTypesBuffering":true,"TreeExpandLevelCount":"3","onDemandLoadingOfXMLSchemaTree":false,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":"false","processElementFormDefault":"true","isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":null,"sourceXpath":"false","targetXpath":"false","cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":"false","metaData":"","processElementFormDefault":"true","mappingInformation":{"mappingVersion":"6.1","mappingName":"sv_mappint_4","mappingProject":"Project:11762755760678","mappingDescription":"test","sourceSchemaID":"XMLSchema:010000000162170849412625600063","targetSchemaID":"ExcelSchema:010000000162170849419967000068","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":null},"namespace":"","namespaceList":[],"targetRoots":{"targetRoot":[{"name":"Root","schemaName":"sv_excel_04","schemaID":"ExcelSchema:010000000162170849419967000068","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"sv_xml_04","schemaID":"XMLSchema:010000000162170849412625600063"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"sv_excel_04","targetfieldpath":"/Root/Record/City","targetfield":"City","targetrecord":"Record","expressionPath":"$Input_sv_xml_04/Root/Record/City","expression":"$Input_sv_xml_04/Root/Record/City","mapping":[{"sourceName":"sv_xml_04","operatortype":"field","sourcefield":"City","sourcefielddisplayname":"City","sourcefieldpath":"/Root/Record/City","sourcerecord":"Record","id":"Mapping-1"}],"namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-ext-17627588930871","elementItem":{"elementType":"TargetElement","expression":"$Input_sv_xml_04/Root/Record/City","paramsCount":1,"name":"City","syntax":"/Root/Record/City"},"elementPos":[1800,1510],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-17627588930873"]},{"elementId":"GraphicalElement-ext-17627588930873","elementItem":{"elementType":"SourceElement","expression":"$Input_sv_xml_04/Root/Record/City","paramsCount":0,"name":"City","syntax":"$Input_sv_xml_04/Root/Record/City"},"elementPos":[1520,1510],"nextElementIds":["GraphicalElement-ext-17627588930871_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-17627588930871"],"previousElementIds":[]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Map-1"},{"order":1,"targetName":"sv_excel_04","targetfieldpath":"/Root/Record/Company","targetfield":"Company","targetrecord":"Record","expressionPath":"$Input_sv_xml_04/Root/Record/State","expression":"$Input_sv_xml_04/Root/Record/State","mapping":[{"sourceName":"sv_xml_04","operatortype":"field","sourcefield":"State","sourcefielddisplayname":"State","sourcefieldpath":"/Root/Record/State","sourcerecord":"Record","id":"Mapping-2"}],"namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-ext-17627588930981","elementItem":{"elementType":"TargetElement","expression":"$Input_sv_xml_04/Root/Record/State","paramsCount":1,"name":"Company","syntax":"/Root/Record/Company"},"elementPos":[1800,1510],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-17627588930983"]},{"elementId":"GraphicalElement-ext-17627588930983","elementItem":{"elementType":"SourceElement","expression":"$Input_sv_xml_04/Root/Record/State","paramsCount":0,"name":"State","syntax":"$Input_sv_xml_04/Root/Record/State"},"elementPos":[1520,1510],"nextElementIds":["GraphicalElement-ext-17627588930981_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-17627588930981"],"previousElementIds":[]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Map-2"},{"order":1,"targetName":"sv_excel_04","targetfieldpath":"/Root/Record/L_Name","targetfield":"L_Name","targetrecord":"Record","expressionPath":"$Input_sv_xml_04/Root/Record/Last_Name","expression":"$Input_sv_xml_04/Root/Record/Last_Name","mapping":[{"sourceName":"sv_xml_04","operatortype":"field","sourcefield":"Last_Name","sourcefielddisplayname":"Last_Name","sourcefieldpath":"/Root/Record/Last_Name","sourcerecord":"Record","id":"Mapping-3"}],"namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-ext-17627588931081","elementItem":{"elementType":"TargetElement","expression":"$Input_sv_xml_04/Root/Record/Last_Name","paramsCount":1,"name":"L_Name","syntax":"/Root/Record/L_Name"},"elementPos":[1800,1510],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-17627588931083"]},{"elementId":"GraphicalElement-ext-17627588931083","elementItem":{"elementType":"SourceElement","expression":"$Input_sv_xml_04/Root/Record/Last_Name","paramsCount":0,"name":"Last_Name","syntax":"$Input_sv_xml_04/Root/Record/Last_Name"},"elementPos":[1520,1510],"nextElementIds":["GraphicalElement-ext-17627588931081_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-17627588931081"],"previousElementIds":[]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Map-3"},{"order":1,"targetName":"sv_excel_04","targetfieldpath":"/Root/Record/Name","targetfield":"Name","targetrecord":"Record","expressionPath":"$Input_sv_xml_04/Root/Record/First_Name","expression":"$Input_sv_xml_04/Root/Record/First_Name","mapping":[{"sourceName":"sv_xml_04","operatortype":"field","sourcefield":"First_Name","sourcefielddisplayname":"First_Name","sourcefieldpath":"/Root/Record/First_Name","sourcerecord":"Record","id":"Mapping-4"}],"namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-ext-17627588931181","elementItem":{"elementType":"TargetElement","expression":"$Input_sv_xml_04/Root/Record/First_Name","paramsCount":1,"name":"Name","syntax":"/Root/Record/Name"},"elementPos":[1800,1510],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-17627588931183"]},{"elementId":"GraphicalElement-ext-17627588931183","elementItem":{"elementType":"SourceElement","expression":"$Input_sv_xml_04/Root/Record/First_Name","paramsCount":0,"name":"First_Name","syntax":"$Input_sv_xml_04/Root/Record/First_Name"},"elementPos":[1520,1510],"nextElementIds":["GraphicalElement-ext-17627588931181_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-17627588931181"],"previousElementIds":[]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Map-4"},{"order":1,"targetName":"sv_excel_04","targetfieldpath":"/Root/Record","targetfield":"Record","targetrecord":"Root","expressionPath":"$Input_sv_xml_04/Root/Record","expression":"$Input_sv_xml_04/Root/Record","mapping":[{"sourceName":"sv_xml_04","operatortype":"field","sourcefield":"Record","sourcefielddisplayname":"Record","sourcefieldpath":"/Root/Record","sourcerecord":"Root","id":"Mapping-5"}],"namespacePrefix":"","namespaceRemovePrefix":"false","localVariables":{"localVariable":[]},"Sorting":{"Sort":[]},"graphicalMappingJson":[{"elementId":"GraphicalElement-ext-17627588931291","elementItem":{"elementType":"TargetElement","expression":"$Input_sv_xml_04/Root/Record","paramsCount":1,"name":"Record","syntax":"/Root/Record"},"elementPos":[1800,1510],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-17627588931293"]},{"elementId":"GraphicalElement-ext-17627588931293","elementItem":{"elementType":"SourceElement","expression":"$Input_sv_xml_04/Root/Record","paramsCount":0,"name":"Record","syntax":"$Input_sv_xml_04/Root/Record"},"elementPos":[1520,1510],"nextElementIds":["GraphicalElement-ext-17627588931291_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-17627588931291"],"previousElementIds":[]}],"defaultEditor":"graphical","markComplete":false,"mapId":"Map-5"}],"sourceExpandLevel":"10","targetExpandLevel":"10"}]]></au_json>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="Root/Record" mode="_Root_Record_order1">
+</xsl:apply-templates></Root></xsl:template><xsl:template match="/Root/Record" mode="_Root_Record_order1">
+<Record><xsl:attribute name="recordNumber"></xsl:attribute><City><xsl:value-of select="City"/></City><Age></Age><Company><xsl:value-of select="State"/></Company><L_Name><xsl:value-of select="Last_Name"/></L_Name><M_name></M_name><Address></Address><Salary></Salary><Dept_id></Dept_id><Name><xsl:value-of select="First_Name"/></Name></Record></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_creationDate><![CDATA[2024-02-21 05:45:30.0]]></au_creationDate>
+        <au_sourceSchema><![CDATA[XMLSchema:010000000162170849412625600063]]></au_sourceSchema>
+        <au_id><![CDATA[010000000162170849433039900070]]></au_id>
+        <au_parallelProcessing><![CDATA[false]]></au_parallelProcessing>
+        <au_splitFile><![CDATA[false]]></au_splitFile>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_persistDataEnabled><![CDATA[false]]></au_persistDataEnabled>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_version><![CDATA[1]]></au_version>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_aimapTrained><![CDATA[false]]></au_aimapTrained>
+        <au_entityName><![CDATA[sv_mappint_4]]></au_entityName>
+        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_modifiedDate><![CDATA[2025-11-10 07:15:13.0]]></au_modifiedDate>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules3287556390543503702.pdf]]></au_pdfFileName>
+        <au_permissionMask><![CDATA[750]]></au_permissionMask>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_aimapFreeze><![CDATA[false]]></au_aimapFreeze>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_targetSchema><![CDATA[ExcelSchema:010000000162170849419967000068]]></au_targetSchema>
+        <au_optimizedLoading><![CDATA[false]]></au_optimizedLoading>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_description><![CDATA[test]]></au_description>
+        <au_metadata><![CDATA[]]></au_metadata>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="-7"/>
+        <column name="au_splitFile" type="-7"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="-7"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="-7"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="-7"/>
+        <column name="au_reusable" type="-7"/>
+        <column name="au_aimapFreeze" type="-7"/>
+        <column name="au_aimapTrained" type="-7"/>
+    </columnInfo>
+</data>
