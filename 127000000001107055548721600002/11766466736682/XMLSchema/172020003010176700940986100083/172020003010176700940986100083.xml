@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_SCHEMAXML>
-        <providerXsdType><![CDATA[null]]></providerXsdType>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_validateXml><![CDATA[false]]></au_validateXml>
+        <au_revision><![CDATA[129c0d87e3d7fdb4de2e2ea18fb65d7cfa4b5694]]></au_revision>
+        <au_dtdFilePath><![CDATA[etc/apps/shopify/layouts/customerUpdateRequest.xml]]></au_dtdFilePath>
+        <au_comments><![CDATA[null]]></au_comments>
+        <AU_XMLSCHEMATYPE><![CDATA[null]]></AU_XMLSCHEMATYPE>
+        <AU_IDOCEXT><![CDATA[null]]></AU_IDOCEXT>
         <au_json><![CDATA[{
     "fieldName": "customers",
     "expanded": true,
@@ -392,19 +394,11 @@
         }
     ]
 }]]></au_json>
-        <au_reusable><![CDATA[true]]></au_reusable>
-        <AU_SYSTEMRELEASE><![CDATA[null]]></AU_SYSTEMRELEASE>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_id><![CDATA[172020003010176700940986100083]]></au_id>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_frevvoXsd><![CDATA[null]]></au_frevvoXsd>
-        <au_dtdFile><![CDATA[null]]></au_dtdFile>
-        <au_convertToXSD><![CDATA[false]]></au_convertToXSD>
-        <xsdType><![CDATA[null]]></xsdType>
-        <au_revision><![CDATA[null]]></au_revision>
-        <xsdName><![CDATA[null]]></xsdName>
+        <au_description><![CDATA[TgtSchema_11766980617779]]></au_description>
+        <providerXsdType><![CDATA[null]]></providerXsdType>
         <AU_DEFFMODE><![CDATA[null]]></AU_DEFFMODE>
+        <AU_IDOCTYPE><![CDATA[null]]></AU_IDOCTYPE>
+        <au_wsProviderID><![CDATA[null]]></au_wsProviderID>
         <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <customers>
 	<customer>
@@ -452,32 +446,38 @@
 		<send_email_welcome/>
 	</customer>
 </customers>]]></au_xsd>
-        <au_description><![CDATA[TgtSchema_11766980617779]]></au_description>
-        <au_modifiedDate><![CDATA[2025-12-29 11:56:49.867]]></au_modifiedDate>
-        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_jcaAdapterID><![CDATA[null]]></au_jcaAdapterID>
+        <xsdName><![CDATA[null]]></xsdName>
+        <au_frevvoXsd><![CDATA[null]]></au_frevvoXsd>
         <au_selectedroot><![CDATA[null]]></au_selectedroot>
-        <au_version><![CDATA[1]]></au_version>
-        <au_xmlValidator><![CDATA[null]]></au_xmlValidator>
-        <AU_IDOCOBJTYPE><![CDATA[null]]></AU_IDOCOBJTYPE>
-        <au_creationDate><![CDATA[2025-12-29 11:56:49.867]]></au_creationDate>
-        <AU_SAPCLIENT><![CDATA[null]]></AU_SAPCLIENT>
         <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_fileReferencesID><![CDATA[null]]></au_fileReferencesID>
-        <au_encodingUsed><![CDATA[null]]></au_encodingUsed>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_projectOwner><![CDATA[Project:11766466736682]]></au_projectOwner>
-        <au_xmlSchemaVersion><![CDATA[2.0]]></au_xmlSchemaVersion>
-        <au_wsMessageCallID><![CDATA[null]]></au_wsMessageCallID>
-        <AU_APPRELEASE><![CDATA[null]]></AU_APPRELEASE>
-        <au_dtdFilePath><![CDATA[etc/apps/shopify/layouts/customerUpdateRequest.xml]]></au_dtdFilePath>
-        <AU_IDOCEXT><![CDATA[null]]></AU_IDOCEXT>
-        <AU_IDOCTYPE><![CDATA[null]]></AU_IDOCTYPE>
-        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
         <au_entityName><![CDATA[TgtSchema_11766980617779]]></au_entityName>
-        <AU_XMLSCHEMATYPE><![CDATA[null]]></AU_XMLSCHEMATYPE>
-        <au_wsProviderID><![CDATA[null]]></au_wsProviderID>
+        <AU_IDOCOBJTYPE><![CDATA[null]]></AU_IDOCOBJTYPE>
+        <au_version><![CDATA[1]]></au_version>
+        <au_convertToXSD><![CDATA[false]]></au_convertToXSD>
         <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <au_jcaAdapterID><![CDATA[null]]></au_jcaAdapterID>
+        <au_xmlSchemaVersion><![CDATA[2.0]]></au_xmlSchemaVersion>
+        <AU_SYSTEMRELEASE><![CDATA[null]]></AU_SYSTEMRELEASE>
+        <au_encodingUsed><![CDATA[null]]></au_encodingUsed>
+        <au_creationDate><![CDATA[2025-12-29 11:56:49.867]]></au_creationDate>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_SAPCLIENT><![CDATA[null]]></AU_SAPCLIENT>
+        <au_xmlValidator><![CDATA[null]]></au_xmlValidator>
+        <au_fileReferencesID><![CDATA[null]]></au_fileReferencesID>
+        <au_wsMessageCallID><![CDATA[null]]></au_wsMessageCallID>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <xsdType><![CDATA[null]]></xsdType>
+        <au_validateXml><![CDATA[false]]></au_validateXml>
+        <au_modifiedDate><![CDATA[2025-12-29 11:56:49.867]]></au_modifiedDate>
+        <au_dtdFile><![CDATA[null]]></au_dtdFile>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_id><![CDATA[172020003010176700940986100083]]></au_id>
+        <au_projectOwner><![CDATA[Project:11766466736682]]></au_projectOwner>
+        <AU_APPRELEASE><![CDATA[null]]></AU_APPRELEASE>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_reusable><![CDATA[true]]></au_reusable>
     </AU_SCHEMAXML>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
