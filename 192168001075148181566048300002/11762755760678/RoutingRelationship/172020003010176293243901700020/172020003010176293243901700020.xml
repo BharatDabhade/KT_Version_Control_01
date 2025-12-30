@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_ROUTINGRELATIONSHIP>
-        <au_sourceActivity><![CDATA[]]></au_sourceActivity>
-        <au_decryptionActivity><![CDATA[]]></au_decryptionActivity>
-        <au_entityName><![CDATA[ss_ftp2ftp_1]]></au_entityName>
-        <au_target><![CDATA[FtpTarget:172020003010176293071189800010]]></au_target>
-        <au_parentServiceTypedID><![CDATA[EDITradingPartner:010000000162170842476541900035]]></au_parentServiceTypedID>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_targetType><![CDATA[Ftp]]></au_targetType>
-        <au_isUnencryptedArchivalFile><![CDATA[false]]></au_isUnencryptedArchivalFile>
-        <au_version><![CDATA[1]]></au_version>
-        <au_processFlow><![CDATA[Transaction:192168001204129724803778600001]]></au_processFlow>
-        <au_modifiedDate><![CDATA[2025-11-12 09:12:20.0]]></au_modifiedDate>
-        <au_outboundArchiveStrategy><![CDATA[]]></au_outboundArchiveStrategy>
-        <au_isCreateTimeStampFolder><![CDATA[false]]></au_isCreateTimeStampFolder>
-        <au_modifiedBy><![CDATA[IndigoUser:11762755760675]]></au_modifiedBy>
-        <au_creationDate><![CDATA[2025-11-12 07:27:19.0]]></au_creationDate>
-        <au_isIdentificationRequired><![CDATA[false]]></au_isIdentificationRequired>
-        <au_documentVersion><![CDATA[]]></au_documentVersion>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_isEncryptionnRequired><![CDATA[false]]></au_isEncryptionnRequired>
-        <au_synchronized><![CDATA[false]]></au_synchronized>
-        <au_eventType><![CDATA[Ftp]]></au_eventType>
-        <au_isArchived><![CDATA[false]]></au_isArchived>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_routeTransform><![CDATA[null]]></au_routeTransform>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_id><![CDATA[172020003010176293243901700020]]></au_id>
+        <au_documentType><![CDATA[]]></au_documentType>
         <au_encryptionActivity><![CDATA[]]></au_encryptionActivity>
-        <au_userOwner><![CDATA[IndigoUser:11762755760675]]></au_userOwner>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_isDecryptionRequired><![CDATA[false]]></au_isDecryptionRequired>
-        <au_processingMode><![CDATA[transform]]></au_processingMode>
-        <au_identifier2value><![CDATA[null]]></au_identifier2value>
-        <au_description><![CDATA[ss_ftp2ftp_1]]></au_description>
         <au_filter><![CDATA[null]]></au_filter>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_routingServiceType><![CDATA[Inbound]]></au_routingServiceType>
-        <au_sourceType1><![CDATA[DatabaseSource]]></au_sourceType1>
-        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
+        <au_version><![CDATA[1]]></au_version>
         <au_notificationCheck><![CDATA[false]]></au_notificationCheck>
-        <au_outboundArchiveFilePath><![CDATA[]]></au_outboundArchiveFilePath>
-        <au_eventName><![CDATA[FTPEvent:172020003010176293218397300017]]></au_eventName>
-        <au_isSkipCompliance><![CDATA[false]]></au_isSkipCompliance>
+        <au_userOwner><![CDATA[IndigoUser:11762755760675]]></au_userOwner>
         <au_outboundArchiveLocation><![CDATA[null]]></au_outboundArchiveLocation>
         <au_mapping><![CDATA[DataMapping:172020003010176293056737700008]]></au_mapping>
+        <au_outboundArchiveFilePath><![CDATA[]]></au_outboundArchiveFilePath>
+        <au_routingServiceType><![CDATA[Inbound]]></au_routingServiceType>
+        <au_description><![CDATA[ss_ftp2ftp_1]]></au_description>
+        <au_eventName><![CDATA[FTPEvent:172020003010176293218397300017]]></au_eventName>
+        <au_isEncryptionnRequired><![CDATA[false]]></au_isEncryptionnRequired>
+        <au_outboundArchiveStrategy><![CDATA[]]></au_outboundArchiveStrategy>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_routeTransform><![CDATA[null]]></au_routeTransform>
+        <au_id><![CDATA[172020003010176293243901700020]]></au_id>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_isArchived><![CDATA[false]]></au_isArchived>
         <au_formatType><![CDATA[Text]]></au_formatType>
+        <au_parentServiceTypedID><![CDATA[EDITradingPartner:010000000162170842476541900035]]></au_parentServiceTypedID>
         <au_identifier1value><![CDATA[null]]></au_identifier1value>
+        <au_sourceType1><![CDATA[DatabaseSource]]></au_sourceType1>
+        <au_identifier2value><![CDATA[null]]></au_identifier2value>
+        <au_documentVersion><![CDATA[]]></au_documentVersion>
+        <au_processFlow><![CDATA[Transaction:192168001204129724803778600001]]></au_processFlow>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_sourceActivity><![CDATA[]]></au_sourceActivity>
         <au_outboundArchiveTargetType><![CDATA[null]]></au_outboundArchiveTargetType>
-        <au_documentType><![CDATA[]]></au_documentType>
+        <au_isUnencryptedArchivalFile><![CDATA[false]]></au_isUnencryptedArchivalFile>
+        <au_isIdentificationRequired><![CDATA[false]]></au_isIdentificationRequired>
+        <au_revision><![CDATA[69b14c3b4b9647262b9d294c5c4edd4ac911c7f6]]></au_revision>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_targetType><![CDATA[Ftp]]></au_targetType>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_decryptionActivity><![CDATA[]]></au_decryptionActivity>
+        <au_eventType><![CDATA[Ftp]]></au_eventType>
+        <au_isDecryptionRequired><![CDATA[false]]></au_isDecryptionRequired>
         <au_targetFileName><![CDATA[]]></au_targetFileName>
+        <au_entityName><![CDATA[ss_ftp2ftp_1]]></au_entityName>
+        <au_isSkipCompliance><![CDATA[false]]></au_isSkipCompliance>
+        <au_projectOwner><![CDATA[Project:11762755760678]]></au_projectOwner>
+        <au_modifiedDate><![CDATA[2025-12-30 06:17:11.0]]></au_modifiedDate>
+        <au_target><![CDATA[FtpTarget:172020003010176293071189800010]]></au_target>
+        <au_modifiedBy><![CDATA[IndigoUser:11762755760675]]></au_modifiedBy>
+        <au_processingMode><![CDATA[transform]]></au_processingMode>
         <au_archiveFilePattern><![CDATA[0|0]]></au_archiveFilePattern>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_isCreateTimeStampFolder><![CDATA[false]]></au_isCreateTimeStampFolder>
+        <au_creationDate><![CDATA[2025-11-12 07:27:19.0]]></au_creationDate>
     </AU_ROUTINGRELATIONSHIP>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
